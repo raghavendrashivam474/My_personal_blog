@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MyBlog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle">Toggle Dark Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="blog-posts">
+            <div class="container">
+                <h2>Latest Posts</h2>
+                <article class="post">
+                    <h3>Welcome to MyBlog</h3>
+                    <p class="date">October 10, 2023</p>
+                    <p>This is the first post on my blog. Welcome! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="/myblog/blog_posts/post1.html" class="read-more">Read More</a>
+                </article>
+                <article class="post">
+                    <h3>Second Post</h3>
+                    <p class="date">October 11, 2023</p>
+                    <p>Another interesting post. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="/myblog/blog_posts/post2.html" class="read-more">Read More</a>
+                </article>
+                <article class="post">
+                    <h3>Third Post</h3>
+                    <p class="date">October 12, 2023</p>
+                    <p>More content here. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <a href="/myblog/blog_posts/post3.html" class="read-more">Read More</a>
+                </article>
+                <article class="post">
+                    <h3>Fourth Post</h3>
+                    <p class="date">October 13, 2023</p>
+                    <p>This is a new post with some random text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="/myblog/blog_posts/post4.html" class="read-more">Read More</a>
+                </article>
+                <article class="post">
+                    <h3>Fifth Post</h3>
+                    <p class="date">October 14, 2023</p>
+                    <p>This is the fifth post with some random text. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                    <a href="/myblog/blog_posts/post5.html" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>This is a simple blog created with HTML, CSS, and JavaScript. It features dark mode and a contact form.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MyBlog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

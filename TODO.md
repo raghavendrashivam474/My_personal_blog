@@ -1,0 +1,4 @@
+- [ ] Create index.html with header, navigation, blog posts section, contact form, and footer
+- [ ] Create style.css with responsive layout and light/dark themes
+- [ ] Create script.js for dark mode toggle and contact form submission handling
+- [ ] Test the website by opening index.html in browser
